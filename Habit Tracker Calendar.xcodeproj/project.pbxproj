@@ -9,14 +9,19 @@
 /* Begin PBXBuildFile section */
 		F3DC1D0A2968D107008D124E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D092968D107008D124E /* AppDelegate.swift */; };
 		F3DC1D0C2968D107008D124E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D0B2968D107008D124E /* SceneDelegate.swift */; };
-		F3DC1D0E2968D107008D124E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D0D2968D107008D124E /* ViewController.swift */; };
-		F3DC1D112968D107008D124E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC1D0F2968D107008D124E /* Main.storyboard */; };
+		F3DC1D0E2968D107008D124E /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D0D2968D107008D124E /* CalendarViewController.swift */; };
 		F3DC1D142968D107008D124E /* Habit_Tracker_Calendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D122968D107008D124E /* Habit_Tracker_Calendar.xcdatamodeld */; };
 		F3DC1D162968D108008D124E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DC1D152968D108008D124E /* Assets.xcassets */; };
 		F3DC1D192968D108008D124E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC1D172968D108008D124E /* LaunchScreen.storyboard */; };
 		F3DC1D242968D108008D124E /* Habit_Tracker_CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D232968D108008D124E /* Habit_Tracker_CalendarTests.swift */; };
 		F3DC1D2E2968D108008D124E /* Habit_Tracker_CalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D2D2968D108008D124E /* Habit_Tracker_CalendarUITests.swift */; };
 		F3DC1D302968D108008D124E /* Habit_Tracker_CalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D2F2968D108008D124E /* Habit_Tracker_CalendarUITestsLaunchTests.swift */; };
+		F3DC1D3E2968D188008D124E /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D3D2968D188008D124E /* CalendarHeaderView.swift */; };
+		F3DC1D402968D1A4008D124E /* CalendarFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D3F2968D1A4008D124E /* CalendarFooterView.swift */; };
+		F3DC1D422968D1DC008D124E /* CalendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D412968D1DC008D124E /* CalendarDateCollectionViewCell.swift */; };
+		F3DC1D452968D3A2008D124E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D442968D3A2008D124E /* Day.swift */; };
+		F3DC1D472968D3BB008D124E /* MonthMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D462968D3BB008D124E /* MonthMetaData.swift */; };
+		F3DC1D492968F3D6008D124E /* StickerPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC1D482968F3D6008D124E /* StickerPlacement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +45,7 @@
 		F3DC1D062968D107008D124E /* Habit Tracker Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Tracker Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC1D092968D107008D124E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DC1D0B2968D107008D124E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3DC1D0D2968D107008D124E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3DC1D102968D107008D124E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3DC1D0D2968D107008D124E /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		F3DC1D132968D107008D124E /* Habit_Tracker_Calendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Habit_Tracker_Calendar.xcdatamodel; sourceTree = "<group>"; };
 		F3DC1D152968D108008D124E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3DC1D182968D108008D124E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		F3DC1D292968D108008D124E /* Habit Tracker CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit Tracker CalendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC1D2D2968D108008D124E /* Habit_Tracker_CalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_Tracker_CalendarUITests.swift; sourceTree = "<group>"; };
 		F3DC1D2F2968D108008D124E /* Habit_Tracker_CalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_Tracker_CalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3DC1D3D2968D188008D124E /* CalendarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
+		F3DC1D3F2968D1A4008D124E /* CalendarFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFooterView.swift; sourceTree = "<group>"; };
+		F3DC1D412968D1DC008D124E /* CalendarDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		F3DC1D442968D3A2008D124E /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		F3DC1D462968D3BB008D124E /* MonthMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthMetaData.swift; sourceTree = "<group>"; };
+		F3DC1D482968F3D6008D124E /* StickerPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPlacement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,10 @@
 		F3DC1D082968D107008D124E /* Habit Tracker Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				F3DC1D432968D38B008D124E /* Models */,
 				F3DC1D092968D107008D124E /* AppDelegate.swift */,
 				F3DC1D0B2968D107008D124E /* SceneDelegate.swift */,
-				F3DC1D0D2968D107008D124E /* ViewController.swift */,
-				F3DC1D0F2968D107008D124E /* Main.storyboard */,
+				F3DC1D3C2968D16C008D124E /* Views */,
 				F3DC1D152968D108008D124E /* Assets.xcassets */,
 				F3DC1D172968D108008D124E /* LaunchScreen.storyboard */,
 				F3DC1D1A2968D108008D124E /* Info.plist */,
@@ -128,6 +138,27 @@
 				F3DC1D2F2968D108008D124E /* Habit_Tracker_CalendarUITestsLaunchTests.swift */,
 			);
 			path = "Habit Tracker CalendarUITests";
+			sourceTree = "<group>";
+		};
+		F3DC1D3C2968D16C008D124E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC1D0D2968D107008D124E /* CalendarViewController.swift */,
+				F3DC1D3D2968D188008D124E /* CalendarHeaderView.swift */,
+				F3DC1D3F2968D1A4008D124E /* CalendarFooterView.swift */,
+				F3DC1D412968D1DC008D124E /* CalendarDateCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3DC1D432968D38B008D124E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC1D442968D3A2008D124E /* Day.swift */,
+				F3DC1D462968D3BB008D124E /* MonthMetaData.swift */,
+				F3DC1D482968F3D6008D124E /* StickerPlacement.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +267,6 @@
 			files = (
 				F3DC1D192968D108008D124E /* LaunchScreen.storyboard in Resources */,
 				F3DC1D162968D108008D124E /* Assets.xcassets in Resources */,
-				F3DC1D112968D107008D124E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3DC1D0E2968D107008D124E /* ViewController.swift in Sources */,
+				F3DC1D0E2968D107008D124E /* CalendarViewController.swift in Sources */,
 				F3DC1D0A2968D107008D124E /* AppDelegate.swift in Sources */,
+				F3DC1D452968D3A2008D124E /* Day.swift in Sources */,
 				F3DC1D0C2968D107008D124E /* SceneDelegate.swift in Sources */,
+				F3DC1D402968D1A4008D124E /* CalendarFooterView.swift in Sources */,
+				F3DC1D3E2968D188008D124E /* CalendarHeaderView.swift in Sources */,
+				F3DC1D422968D1DC008D124E /* CalendarDateCollectionViewCell.swift in Sources */,
+				F3DC1D492968F3D6008D124E /* StickerPlacement.swift in Sources */,
+				F3DC1D472968D3BB008D124E /* MonthMetaData.swift in Sources */,
 				F3DC1D142968D107008D124E /* Habit_Tracker_Calendar.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F3DC1D0F2968D107008D124E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3DC1D102968D107008D124E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3DC1D172968D108008D124E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +474,6 @@
 				INFOPLIST_FILE = "Habit Tracker Calendar/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +501,6 @@
 				INFOPLIST_FILE = "Habit Tracker Calendar/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
